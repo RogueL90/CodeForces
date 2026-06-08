@@ -20,7 +20,7 @@ int main() {
             cin >> y;
             heights[i] = y;
         }
-        int extra = 0;
+        long long extra = 0;
         int prevH = heights[0];
         cout << prevH << " ";
         for(int i = 1; i<n; i++){
