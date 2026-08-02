@@ -26,7 +26,7 @@ int main() {
             for(int i =mid-1;i>=0; i--){
                 auto it = ms.find(i);
                 auto it1 = ms.lower_bound(2*i+1);
-                if(ms.find(i)!=ms.end()){
+                if(it!=ms.end()){
                     ms.erase(it);
                 }else if(it1!=ms.end()){
                     ms.erase(it1);
