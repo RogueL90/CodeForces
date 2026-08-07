@@ -30,7 +30,7 @@ using ll = long long;
         sort(bp.begin(), bp.end());
         ans.push_back(bp[0]);
         int i = 1;
-        while(i<n||!bn.empty()){
+        while(i<bp.size()||!bn.empty()){
             auto it = bn.lower_bound(-ans.back()+1);
             if(it!=bn.end()){
                 ans.push_back(*it+ans.back());
