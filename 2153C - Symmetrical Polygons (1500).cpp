@@ -17,7 +17,7 @@ int main() {
         vector<ll> vals;
         int interactions = 0;
         int c = 0;
-        int prev = 0;
+        ll prev = 0;
         for(int i = 0; i<n; i++){
             if(prev==a[i]){
                 c++;
