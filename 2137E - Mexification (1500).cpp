@@ -37,7 +37,7 @@ int main() {
         while(j<n&&prev+1>=a[j]){
             if(prev!=a[j]){
                 prev=a[j];
-                if(j==n-1||a[j+1]==a[j]+1){
+                if(j==n-1||a[j+1]!=a[j]){
                     cnt++;
                     side+=a[j];
                 }
